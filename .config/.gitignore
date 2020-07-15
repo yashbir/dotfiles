@@ -1,0 +1,5 @@
+# Ignore you don't want
+
+*.swp
+*.pyc
+.vim/plugged/
