@@ -1,3 +1,4 @@
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -8,8 +9,9 @@ export ZSH="/Users/yashbir/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-
+ZSH_THEME=""
+autoload -U promptinit; promptinit
+prompt pure
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -100,3 +102,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Fun
 alias soja="cowsay -t 'Tired!, Going to sleep...' && sleep 3 && pmset sleepnow"
+alias rzsh="source ~/.zshrc"
+
+# edit alacritty config
+alias alconfig="nvim ~/.config/alacritty/alacritty.yml"
+alias nv="nvim"
+alias py="python3"
+alias nvconf="nvim ~/.config/nvim/init.vim"
