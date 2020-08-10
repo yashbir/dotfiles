@@ -3,3 +3,4 @@
 *.swp
 *.pyc
 .vim/plugged/
+.config/nvim/plugged/
