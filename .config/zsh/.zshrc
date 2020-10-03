@@ -109,3 +109,4 @@ alias alconfig="nvim ~/.config/alacritty/alacritty.yml"
 alias nv="nvim"
 alias py="python3"
 alias nvconf="nvim ~/.config/nvim/init.vim"
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
