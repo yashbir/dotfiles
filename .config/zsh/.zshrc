@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # Fun
 alias soja="cowsay -t 'Tired!, Going to sleep...' && sleep 3 && pmset sleepnow"
 alias rzsh="source ~/.zshrc"
+alias dots="cd ~/Work/dotfiles/.config"
 
 # edit alacritty config
 alias alconfig="nvim ~/.config/alacritty/alacritty.yml"
