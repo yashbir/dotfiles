@@ -12,6 +12,7 @@ export ZSH="/Users/yashbir/.oh-my-zsh"
 ZSH_THEME=""
 autoload -U promptinit; promptinit
 prompt pure
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -109,5 +110,8 @@ alias dots="cd ~/Work/dotfiles/.config"
 alias alconfig="nvim ~/.config/alacritty/alacritty.yml"
 alias nv="nvim"
 alias py="python3"
-alias nvconf="nvim ~/.config/nvim/init.vim"
+alias xls="clear; tmux clear-history" 
+alias work="cd ~/Work"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export PATH="$PATH:/Users/yashbir/Work/devtools/flutter/bin"

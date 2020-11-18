@@ -8,7 +8,10 @@ set hidden
 set t_Co=256
 set t_ut=
 let g:onedark_termcolors=256
-colorscheme onedark
+let g:material_terminal_italics = 1
+let g:material_theme_style = 'ocean'
+let g:lightline = { 'colorscheme': 'material_vim' }
+colorscheme material
 set showcmd
 
 :imap kj <Esc>
@@ -20,8 +23,11 @@ set smarttab
 set incsearch
 set hlsearch
 
+let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
+
 " To use fzf in vim
 set rtp+=/usr/local/opt/fzf
 
 " To install COC extensions on server start
-let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-flutter']

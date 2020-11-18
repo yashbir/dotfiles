@@ -10,4 +10,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'pangloss/vim-javascript'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'wakatime/vim-wakatime'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'dart-lang/dart-vim-plugin'
 call plug#end()
