@@ -4,3 +4,4 @@
 *.pyc
 .vim/plugged/
 .config/nvim/plugged/
+alacritty.yml
