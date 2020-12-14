@@ -13,4 +13,5 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'wakatime/vim-wakatime'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'Rigellute/shades-of-purple.vim'
 call plug#end()

@@ -10,8 +10,9 @@ set t_ut=
 let g:onedark_termcolors=256
 let g:material_terminal_italics = 1
 let g:material_theme_style = 'ocean'
-let g:lightline = { 'colorscheme': 'material_vim' }
-colorscheme material
+let g:shades_of_purple_lightline = 1
+let g:lightline = { 'colorscheme': 'shades_of_purple' }
+colorscheme shades_of_purple
 set showcmd
 
 :imap kj <Esc>
